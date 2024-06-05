@@ -1,0 +1,10 @@
+05/06/2024
+Moved Over to IntelliJ
+Testing out the algorithm with purely row and column checks.
+Begun Soft-locking itself as values that were needed for both row and column were being utilised already.
+Hoping Box condition will rectify this.
+Currently Developing Box checks.
+Implementing via row and col coordinates with then link to the top left cell of the box;
+Will then iterate through.
+Box Condition now works correctly
+Will test both row and col conditions tmr.
