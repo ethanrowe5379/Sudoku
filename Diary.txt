@@ -8,3 +8,13 @@ Implementing via row and col coordinates with then link to the top left cell of 
 Will then iterate through.
 Box Condition now works correctly
 Will test both row and col conditions tmr.
+
+06/06/2024
+Tested both row and col checks, works as intended.
+Though the conditions is still soft-locking itself.
+To get around this ive implemented a failsafe.
+Within the inf loop for checking the value, ive added a counter.
+If this counter reaches 9 (max number to be played on the grid) then reset the row.
+This is done by returning the no. 0 to the generateGameBoard() function and reset the row and loop.
+I've successfully created at least one working sudoku grid from looking at it briefly but will require testing.
+Next up will be to start reducing the number of values and then proceed to try and create a solving algorithm (to check if the grid is solvable).
